@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+/**查询按钮		 默认*/
+.lt_query {
+	background-image: url('../img/search.png');
+	border-style: none;
+	width: 54px;
+	height: 26px;
+	background-repeat: no-repeat;
+}
+
+/**查询按钮		聚焦*/
+.lt_query2 {
+	background-image: url('../img/search_focus.png');
+	border-style: none;
+	width: 54px;
+	height: 26px;
+	background-repeat: no-repeat;
+}
+	
+/** 导出excel按钮  默认 */
+.lt_export_excel {
+	background-image: url('../img/exportexcel.jpg');
+	border-style: none;
+	width: 108px;
+	height: 26px;
+	background-repeat: no-repeat;
+}
+
+/** 导出excel按钮  聚焦  */
+.lt_export_excel2 {
+	background-image: url('../img/exportexcel_focus.png');
+	border-style: none;
+	width: 108px;
+	height: 26px;
+	background-repeat: no-repeat;
+}
+
+/** 显示为列表按钮       默认*/
+.lt_showlist {
+	background-image: url('../img/showlist.png');
+	border-style: none;
+	width: 108px;
+	height: 26px;
+	background-repeat: no-repeat;
+}
+
+/** 显示为列表按钮     聚焦*/
+.lt_showlist2 {
+	background-image: url('../img/showlist_focus.png');
+	border-style: none;
+	width: 108px;
+	height: 26px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

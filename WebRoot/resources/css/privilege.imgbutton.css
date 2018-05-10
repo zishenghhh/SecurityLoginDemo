@@ -1,0 +1,207 @@
+/** 閿熸枻鎷峰奖閿熻剼锟�   */
+.lt_privilege_addimg{
+	width:54px;
+	height:26px;
+	background:url('../img/addbtn.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_addimg:hover{
+	background:url('../img/addbtn_focus.png') no-repeat;
+}
+
+
+/** 閿熸磥杈戦敓鏂ゆ嫹閽�   */
+.lt_privilege_editimg{
+	width:54px;
+	height:26px;
+	background:url('../img/editbtn.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_editimg:hover{
+	background:url('../img/editbtn_focus.png') no-repeat;
+}
+
+
+/** 鍒犻敓鏂ゆ嫹閽�   */
+.lt_privilege_deleteimg{
+	width:54px;
+	height:26px;
+	background:url('../img/delete_before.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_deleteimg:hover{
+	background:url('../img/delete_focus.png') no-repeat;
+}
+
+
+/** 閿熸枻鎷烽敓閰殿煉鎷烽敓鑴氾拷   */
+.lt_privilege_auditimg{
+	width:84px;
+	height:26px;
+	background:url('../img/audit_pass.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_auditimg:hover{
+	background:url('../img/audit_pass2.png') no-repeat;
+}
+
+.lt_privilege_reauditimg{
+    width:84px;
+    height:26px;
+    background:url('../img/reaudit_pass.png') no-repeat;
+    cursor:pointer;
+    border-style: none;
+}
+.lt_privilege_reauditimg:hover{
+    background:url('../img/reaudit_pass2.png') no-repeat;
+}
+
+
+/** 閿熸枻鎷风灛閿熼叺顭掓嫹閿熻剼锟�   */
+.lt_privilege_noauditimg{
+	width:84px;
+	height:26px;
+	background:url('../img/audit_nopass.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_noauditimg:hover{
+	background:url('../img/audit_nopass2.png') no-repeat;
+}
+
+.lt_privilege_noreauditimg{
+    width:84px;
+    height:26px;
+    background:url('../img/reaudit_nopass.png') no-repeat;
+    cursor:pointer;
+    border-style: none;
+}
+.lt_privilege_noreauditimg:hover{
+    background:url('../img/reaudit_nopass2.png') no-repeat;
+}
+
+/** 閿熺粨浜ら敓鏂ゆ嫹閽�   */
+.lt_privilege_submitimg{
+	width:52px;
+	height:25px;
+	background:url('../img/commit_before.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_submitimg:hover{
+	background:url('../img/commit_focus.png') no-repeat;
+}
+
+/** 閿熸枻鎷锋閿熸枻鎷烽敓鑺傚府鎷烽挳   */
+.lt_privilege_deleteSchedule{
+	width:65px;
+	height:26px;
+	background:url('../schedule/deleteSchedule.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_deleteSchedule:hover{
+	background:url('../schedule/deleteSchedule_hover.png') no-repeat;
+}
+
+/** 閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷疯瘞閿熻剼锟�   */
+.lt_privilege_addSchedule{
+	width:65px;
+	height:26px;
+	background:url('../schedule/addSchedule.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_addSchedule:hover{
+	background:url('../schedule/addSchedule_hover.png') no-repeat;
+}
+
+/** 娑撳褰傞幐澶愭尦閺嶅嘲绱�  */
+.lt_privilege_publishStrategy{
+	width:54px;
+	height:26px;
+	background:url('../img/publish.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_publishStrategy:hover{
+	background:url('../img/publish_focus.png') no-repeat;
+}
+
+/** 缁涙牜鏆愰弴瀛樻煀閹稿鎸抽弽宄扮础  */
+.lt_privilege_updateStrategy{
+	width:54px;
+	height:26px;
+	background:url('../img/updateStrategy.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_updateStrategy:hover{
+	background:url('../img/updateStrategy_focus.png') no-repeat;
+}
+
+/**  鐠у嫭绨悽瀹狀嚞闁插﹥鏂侀幐澶愭尦閺嶅嘲绱�*/
+.lt_privilege_releaseResource{
+	width:65px;
+	height:26px;
+	background:url('../img/resourceApply/release_btn.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_releaseResource:hover{
+	background:url('../img/resourceApply/release_btn_focus.png') no-repeat;
+}
+
+/**  婢х偛濮為獮鍨啞閹稿鎸抽弽宄扮础*/
+.lt_privilege_addAdvert{
+	width:84px;
+	height:26px;
+	background:url('../img/resourceApply/add_advert_btn.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_addAdvert:hover{
+	background:url('../img/resourceApply/add_advert_focus_btn.png') no-repeat;
+}
+/**  閹靛綊鍣洪幓鎰唉閹稿鎸抽弽宄扮础*/
+.lt_privilege_batchSub{
+	width:84px;
+	height:26px;
+	background:url('../img/resourceApply/batch_sub_btn.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+.lt_privilege_batchSub:hover{
+	background:url('../img/resourceApply/batch_sub_focus_btn.png') no-repeat;
+}
+
+/**  添加单个黑名单权限按钮*/
+.lt_privilege_singleadd{
+	width:84px;
+	height:26px;
+	background:url('../img/single_add.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+
+.lt_privilege_singleadd:hover{
+    background:url('../img/single_add_focus.png') no-repeat;
+}
+
+
+/**  批量个黑名单权限按钮*/
+.lt_privilege_batchadd{
+	width:84px;
+	height:26px;
+	background:url('../img/batch_add.png') no-repeat;
+	cursor:pointer;
+	border-style: none;
+}
+
+.lt_privilege_batchadd:hover{
+    background:url('../img/batch_add_focus.png') no-repeat;
+}

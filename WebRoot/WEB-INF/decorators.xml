@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators>
+	<excludes>
+        <pattern>/resources/**</pattern>
+        <pattern>/system/login_index.do</pattern>
+        <pattern>/system/login.do</pattern>
+        <pattern>/system/close_window.do</pattern>
+        <pattern>/system/login_force.jsp</pattern>
+        <pattern>/system/info.jsp</pattern>
+        <pattern>/index.jsp</pattern>
+        <pattern>/usermemcached/**</pattern>
+        <pattern>/demo/**</pattern>
+        <pattern>/front/**</pattern>
+        <pattern>/reload-log4j.jsp</pattern>
+        <pattern>/materialTag/tagList.do</pattern>
+    </excludes>
+</decorators>

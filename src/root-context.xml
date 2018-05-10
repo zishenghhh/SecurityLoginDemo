@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-3.1.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+    http://www.springframework.org/schema/task
+    http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+    
+    
+	<aop:aspectj-autoproxy/>
+	
+	<!--使用注解管理bean  -->
+	<context:annotation-config/>
+	
+	<!-- 扫描com.lutongnet下的所有类 -->
+	<context:component-scan base-package="com.lutongnet.cps">
+		<context:exclude-filter type = "annotation" expression = "org.springframework.stereotype.Controller"/>
+	</context:component-scan>
+	
+	<bean id="config" class="com.lutongnet.cps.base.dao.DecryptPropertyPlaceholderConfigurer">
+		<property name="locations">
+            <list>      
+                <value>classpath:config.properties</value>
+            </list>
+        </property>
+        <property name="fileEncoding" value="utf-8"/>
+	</bean>
+	<bean id="systemstatus" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="location" value="classpath:systemstatus.properties"></property>
+	</bean>
+	
+	<!-- 缓存框架mencache客户端配置 
+	<bean id="memcachedClientBuilder" class="net.rubyeye.xmemcached.XMemcachedClientBuilder">
+                <constructor-arg>
+                        <list>
+                                <bean class="java.net.InetSocketAddress">
+                                        <constructor-arg>
+                                                <value>localhost</value>
+                                        </constructor-arg>
+                                        <constructor-arg>
+                                                <value>11211</value>
+                                        </constructor-arg>
+                                </bean>
+                        </list>
+                </constructor-arg>
+                <property name="connectionPoolSize" value="50"></property>
+                <property name="commandFactory">
+                        <bean class="net.rubyeye.xmemcached.command.TextCommandFactory"></bean>
+                </property>
+                <property name="transcoder">
+                        <bean class="net.rubyeye.xmemcached.transcoders.SerializingTranscoder" />
+                </property>
+        </bean>
+        <bean id="memcachedClient" factory-bean="memcachedClientBuilder"
+                factory-method="build" destroy-method="shutdown"/>
+	
+	-->
+	
+	<import resource="dao.xml"/>
+</beans>

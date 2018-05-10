@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
+<configuration>
+<!-- 	<plugins>
+		<plugin interceptor="com.lutongnet.cps.base.util.PagePlugin">
+			<property name="dialect" value="mysql" />
+			<property name="pageSqlId" value=".*ListPage.*" />
+		</plugin>
+	</plugins> -->
+	
+	<!-- 接口映射文件的位置 -->
+	<mappers>
+		
+		<mapper resource="com/lutongnet/cps/system/mapper/SystemUser.xml" /> 
+	</mappers>
+</configuration>
